@@ -30,7 +30,7 @@ const Quotes = () => {
     }
 
     return (
-        <div>
+        <div style={{ width: "500px"}} className='border rounded p-4'>
             {currentQuote && (
                 <div style={{ marginBottom: '20px' }}>
                     <blockquote style={{ fontStyle: 'italic', fontSize: '1.2rem' }}>
